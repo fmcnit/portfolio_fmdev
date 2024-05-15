@@ -16,6 +16,7 @@ body{
 
 header{
     padding: 25px 4% 1px 4%;
+    
 }
 
 header > .interface{
@@ -25,6 +26,8 @@ header > .interface{
    
 
 }
+
+
 .menu-desktop ul{
     display: flex;
     gap: 70px;
@@ -72,11 +75,13 @@ span{
     box-shadow: 0 0 12px rgb(255, 254, 254);
 }
 
+
 .topo-do-site{
     display: flex;
     max-width: 100%;
     box-sizing: border-box;
     height: 500px;
+    
 
 }
 
@@ -108,12 +113,16 @@ span{
     display: flex;
     position: relative;
     overflow: hidden;
+
+    
 }
 
 .imagem-central img{
-    border-radius: 680px 0 0 600px;
-    width: 700px;
+    border-radius: 0px 0 0 600px;
+    width: 900px;
     height: 900px;
+    object-fit: cover;
+    
 }
 
 .degrade{
