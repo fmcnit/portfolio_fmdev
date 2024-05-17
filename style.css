@@ -5,6 +5,7 @@
   padding: 0;
   box-sizing: border-box;
   font-family: "Poppins", sans-serif;
+  list-style: none;
 }
 
 body {
@@ -21,10 +22,6 @@ header > .interface {
   display: flex;
   align-items: center;
   justify-content: space-between;
-}
-
-.active {
-  display: block;
 }
 
 .menu-desktop ul {
@@ -372,20 +369,19 @@ main {
     margin-left: 90px;
     font-weight: 600;
     position: absolute;
-    right: 100px;
+    right: 85px;
     text-align: right;
   }
 
   .menu-mobile a{
-    font-size: 0.9rem;
+    font-size: 0.8rem;
     border-bottom: 1px solid white;
     margin-top: 5px;
-    list-style: none;
+    
   }
 
   .menu-mobile a:hover{
     border: 1px solid white;
-    gap: 10px;
     padding: 5px ;
     background-color: rgba(255, 255, 255);
     
@@ -393,9 +389,11 @@ main {
 }
 
 @media screen and (max-width: 650px) {
+  
   main {
     width: 100vw;
   }
+
   .topo-do-site {
     width: 100%;
   }
