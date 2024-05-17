@@ -380,6 +380,7 @@ main {
     font-size: 0.9rem;
     border-bottom: 1px solid white;
     margin-top: 5px;
+    list-style: none;
   }
 
   .menu-mobile a:hover{
