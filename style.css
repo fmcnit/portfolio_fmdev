@@ -272,6 +272,14 @@ main {
   background-image: url("img/project-6.png");
 }
 
+#slide-7 {
+  background-image: url("img/project-7.png");
+}
+
+#slide-8 {
+  background-image: url("img/project-8.png");
+}
+
 .plus {
   text-decoration: none;
   color: white;
