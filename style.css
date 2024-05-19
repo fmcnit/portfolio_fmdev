@@ -416,7 +416,7 @@ main {
   }
 
   .especialidades{
-    min-height: 1500px;
+    min-height: 1450px;
   }
 
   .cards {
@@ -427,10 +427,6 @@ main {
 
   .card-especialidades p {
     font-size: 0.7rem;
-  }
-
-  .meio-do-site {
-    
   }
 
   .portfolio {
