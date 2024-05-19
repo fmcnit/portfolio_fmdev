@@ -165,7 +165,6 @@ main {
 
 .meio-do-site {
   display: flex;
-  height: 500px;
   justify-content: center;
   align-items: center;
 }
@@ -411,8 +410,9 @@ main {
     height: 900px;
   }
 
-  .text h1, p {
+  .text{
     text-align: center;
+    margin: 10px;
   }
 
   .especialidades{
