@@ -414,6 +414,7 @@ main {
 
   .degrade {
     height: 900px;
+    margin-bottom: 0;
   }
 
   .text h1,
@@ -436,7 +437,7 @@ main {
   }
 
   .meio-do-site {
-    margin-top: 1200px;
+    margin-top: 1000px;
   }
 
   .portfolio {
