@@ -298,6 +298,10 @@ main {
   background-image: url("img/projectNext-1.png");
 }
 
+#slideNext-2 {
+  background-image: url("img/projectNext-2.png");
+}
+
 .plus {
   text-decoration: none;
   color: white;
