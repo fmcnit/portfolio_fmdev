@@ -443,7 +443,7 @@ main {
       top: 0px;
       z-index: 0;    
     }
-    
+
     .text{
       margin: 10px;
       width: 90%;
@@ -466,6 +466,11 @@ main {
     .meio-do-site{
       height: fit-content;
       margin-top: 40px;
+    }
+
+    .card-especialidades{
+      width: 350px;
+      height: auto;
     }
   
 
