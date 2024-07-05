@@ -201,7 +201,6 @@ main {
   color: white;
   display: flex;
   flex-direction: column;
-  height: 100%;
 }
 
 .portfolio h2 {
@@ -420,54 +419,45 @@ main {
 }
 
 @media screen and (max-width: 650px) {
+
+    .topo-do-site{
+      width: 100vw;
+      position: relative;
+      margin-top: 20px;
+      height: fit-content;
+      
+    }
+
+    .flex{
+      justify-content: center;
+    }
+
+    .imagem-central{
+      position: absolute;
+      top: 0px;
+      z-index: 0;
+    }
+
+    .text{
+      margin: 10px;
+      width: 80%;
+      text-align: center;
+      z-index: 2;
+    }
+
+    .especialidades{
+      height: fit-content;
+    }
+
+    .cards{
+      flex-direction: column;
+    }
+
+    .meio-do-site{
+      height: fit-content;
+      margin-top: 40px;
+    }
   
-  main {
-    width: 100vw;
-  }
 
-  .topo-do-site {
-    width: 100%;
-  }
-
-  .especialidades{
-    height: 1300px;
-  }
-
-  .flex {
-    flex-direction: column;
-    align-items: center;
-    width: 100vw;
-  }
-
-  .degrade {
-    height: 900px;
-  }
-
-  .text{
-    text-align: center;
-    margin: 10px;
-  }
-
-  .meio-do-site{
-    display: none;
-  }
-
-  .cards {
-    flex-direction: column;
-    margin-bottom: 100px;
-    max-height: 200px;
-  }
-
-  .card-especialidades p {
-    font-size: 0.7rem;
-  }
-
-  .portfolio {
-    text-align: center;
-  }
-
-  .portfolio h2 {
-    z-index: 30;
-    margin-top: 50px;
-  }
+    
 }
