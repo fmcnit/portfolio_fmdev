@@ -9,8 +9,9 @@
 }
 
 body {
-  background-color: rgba(0, 0, 0);
-  height: 100vh;
+  background: rgb(2,3,5);
+  background: linear-gradient(to bottom, rgba(2,3,5,1) 7%, rgba(0,0,0,1) 31%, rgba(34,53,91,1) 40%, rgb(7, 26, 31) 90%);
+  
 }
 
 header {
@@ -86,7 +87,7 @@ main {
   color: rgb(86, 136, 252);
 }
 .text h1 {
-  font-size: 2rem;
+  font-size: 3rem;
   text-transform: uppercase;
   line-height: 95%;
 }
@@ -103,19 +104,6 @@ main {
   object-fit: cover;
 }
 
-.degrade {
-  min-width: 100%;
-  height: 300%;
-  position: absolute;
-  background-image: linear-gradient(
-    to right,
-    black,
-    rgba(0, 0, 0, 0.81),
-    rgba(0, 0, 0, 0.487),
-    rgba(255, 255, 255, 0)
-  );
-  right: 68px;
-}
 
 .especialidades {
   width: 100%;
@@ -206,7 +194,6 @@ main {
 .portfolio h2 {
   padding: 0 0 50px 0;
   font-size: 2rem;
-  color: rgb(86, 136, 252);
   text-transform: uppercase;
   text-align: center;
 }
@@ -214,7 +201,6 @@ main {
 .portfolio h4 {
   padding: 0px 20px;
   font-size: 1rem;
-  color: rgb(86, 136, 252);
   text-transform: uppercase;
   margin-top: 30px;
 
@@ -420,12 +406,32 @@ main {
 
 @media screen and (max-width: 650px) {
 
+  main{
+    overflow-x: hidden;
+  }
+
     .topo-do-site{
       width: 100vw;
       position: relative;
       margin-top: 20px;
       height: fit-content;
-      
+      display: block;
+      padding: 30px;
+    
+    }
+
+    .degrade {
+      min-width: 100%;
+      height: 100%;
+      position: absolute;
+      background-image: linear-gradient(
+        to right,
+        black,
+        rgba(0, 0, 0, 0.81),
+        rgba(0, 0, 0, 0.487),
+        rgba(255, 255, 255, 0)
+      );
+      right: 68px;
     }
 
     .flex{
@@ -435,14 +441,18 @@ main {
     .imagem-central{
       position: absolute;
       top: 0px;
-      z-index: 0;
+      z-index: 0;    
     }
-
+    
     .text{
       margin: 10px;
-      width: 80%;
+      width: 90%;
       text-align: center;
       z-index: 2;
+    }
+
+    .text h1{
+      font-size: 2rem;
     }
 
     .especialidades{
