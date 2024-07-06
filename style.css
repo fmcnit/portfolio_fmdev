@@ -95,6 +95,7 @@ main {
 .imagem-central {
   display: flex;
   position: relative;
+  
 }
 
 .imagem-central img {
@@ -102,6 +103,10 @@ main {
   width: 700px;
   height: 900px;
   object-fit: cover;
+  opacity: 50%;
+  
+  
+  
 }
 
 
@@ -163,11 +168,16 @@ main {
   height: 500px;
   align-items: center;
   margin: 0 30px;
+  
+
 }
 
 .imagem-apresentação img {
-  border-radius: 30px;
+  border-radius: 50%;
   height: 90%;
+  
+  box-shadow: 1px 1px 10px rgba(255, 255, 255, 0.668);
+ 
 }
 .social-buttom {
   display: flex;
