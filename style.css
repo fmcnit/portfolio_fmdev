@@ -60,10 +60,21 @@ main {
 
 .menu-mobile {
   display: none;
+  transition: 1s;
+ 
+}
+
+nav.menu-mobile > ul {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+  list-style: none;
 }
 
 .btn-mobile {
   display: none;
+  
 }
 
 .topo-do-site {
@@ -104,19 +115,15 @@ main {
   height: 900px;
   object-fit: cover;
   opacity: 50%;
-  
-  
-  
-}
 
+}
 
 .especialidades {
   width: 100%;
   display: flex;
   flex-direction: column;
   align-items: center;
-  color: white;
-  
+  color: white; 
 }
 
 .especialidades h2 {
@@ -168,7 +175,6 @@ main {
   height: 500px;
   align-items: center;
   margin: 0 30px;
-  
 
 }
 
@@ -395,17 +401,27 @@ main {
     padding: 20px;
   }
 
-  .menu-mobile{
-    margin-left: 90px;
+  .menu-mobile.active{
     font-weight: 600;
     position: absolute;
-    right: 85px;
+    right: 0px;
     text-align: right;
-  }
+    background-color: rgba(34,53,91,1);
+    width: 50%;
+    height: 100vh;
+    z-index: 99;
+    top: 0;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+  
+}
 
   .menu-mobile a{
     font-size: 0.8rem;
-    border-bottom: 1px solid white;
+  
     margin-top: 5px;
     
   }
@@ -415,6 +431,13 @@ main {
     padding: 5px ;
     background-color: rgba(255, 255, 255);
     
+  }
+
+  .btn-mobile-close > img{
+    background-color: none;
+    width: 30%;
+    height: auto;
+
   }
 }
 
@@ -487,6 +510,4 @@ main {
       height: auto;
     }
   
-
-    
 }

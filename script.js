@@ -4,6 +4,8 @@ const menuMobile = document.querySelector(".menu-mobile")
 
 const btnMobile = document.querySelector(".btn-mobile")
 
+const btnMobileClose = document.querySelector(".btn-mobile-close");
+
 btnMobile.addEventListener("click", ()=>{
      
     if(menuMobile.classList.contains("active")){
@@ -13,3 +15,9 @@ btnMobile.addEventListener("click", ()=>{
     }
         
 })
+
+btnMobileClose.addEventListener("click", () => {
+  if (menuMobile.classList.contains("active")) {
+    menuMobile.classList.remove("active");
+  }
+});
